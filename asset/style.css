@@ -17,7 +17,7 @@
     transform: translateY(-8px);
   }
   .social-icons i  {
-      font-size: 32px; margin-right: 8px;
+      font-size: 24px; margin-right: 8px;
   }
 
   body {
@@ -31,4 +31,10 @@
   }
   .cta {
     text-decoration: underline;
+  }
+  #top-nav {
+    margin-right: 16px;
+  }
+  .hero-text {
+    max-width: 600px;
   }

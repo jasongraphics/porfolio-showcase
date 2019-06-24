@@ -38,3 +38,37 @@
   .hero-text {
     max-width: 600px;
   }
+  #top-navbar-items li {
+    font-size: 18px;
+  }
+  .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #007bffCC;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.25s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+  }
+  .overlay:hover {
+    opacity: 1;
+  }
+  .thumbnail-img {
+    position: relative;
+    display: block;
+  }
+  #logo {
+    width: 50px;
+  }
+  #speechbubble {
+    max-width: 350px;
+  }
+  #speechbubble p {
+    padding: 8px;
+  }

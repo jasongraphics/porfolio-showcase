@@ -17,12 +17,22 @@
     transform: translateY(-8px);
   }
   .social-icons i  {
-      font-size: 24px; margin-right: 8px;
+      font-size: 24px; 
+      margin-right: 8px;
+      color: #272727;
   }
 
   body {
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Poppins', monospace;
     overflow-x: hidden;
+  }
+  .wrapper {
+    max-width: 1000px;
+    margin: auto;
+  }
+  .navbar {
+    max-width: 1000px;
+    margin:auto;
   }
   .profile {
     -webkit-box-shadow: 0px 0px 44px -10px rgba(0,0,0,1);
@@ -34,6 +44,9 @@
   }
   #top-nav {
     margin-right: 16px;
+  }
+  #main-nav {
+    drop-shadow(0px 12px 8px #f9f9f9);
   }
   .hero-text {
     max-width: 600px;
@@ -71,4 +84,15 @@
   }
   #speechbubble p {
     padding: 8px;
+  }
+
+  .profile-photo {
+    width: 80%
+  }
+
+  .project-content h4 {
+    margin-top:24px;
+  }
+  .project-content p,ul {
+    font-size: 14px;
   }

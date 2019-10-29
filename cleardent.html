@@ -1,191 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <title>Jason Lee</title>
-    <meta name="description" content="DESCRIPTION">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="PATH">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/asset/style.css">
-    <script src="https://kit.fontawesome.com/36eda0252e.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-91741398-3"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'UA-91741398-3');
-</script>
-<style>
-  h3 {
-    margin-top:32px;
-  }
-  img {
-    box-shadow: 0px 0px 38px 2px rgba(71,71,71,0.12);
-    margin-top: 16px;
-  }
-  .img-description {
-    margin-top: 8px;
-  }
-</style>
- </head>
-    <body>
-        <div class="navbar-container border-bottom sticky-top">
-          <nav id="main-nav" class="container navbar navbar-expand-lg navbar-light px-0 bg-white">
-              <a class="navbar-brand" href="#"><img id="logo" src="/asset/img/logo.png"></a>
-              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
-                <ul id="top-navbar-items"class="navbar-nav ml-auto mt-2 mt-lg-0">
-                  <li class="nav-item active">
-                    <a class="nav-link mr-2" href="#">Work<span class="sr-only">(current)</span></a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="/about.html">About</a>
-                  </li>
-                  <li class="p-0 nav-item bg-primary rounded mx-2">
-                      <a target="_blank" class="nav-link text-white" href="#">View Resume</a>
-                    </li>
-                </ul>
-              </div>
-          </nav>
-        </div>
-    <div class="container wrapper project-content py-5">
-        <h1>ClearDent Case Study</h1>
-        <h6>Project Summary</h6>
-        <p>
-            ClearDent is a dental practice management software provider based in Vancouver, with over 40% market shares in Western Canada. 
-            I have helped ClearDent to completely overhaul the company's website as an in-house design lead, 
-            working rigorously as a team with the Revenue (Sales & Marketing) department. 
-        </p>
-        <h6>Team Members</h6>
-        <ul>
-            <li>Chief Revenue Officer</li>
-            <li>Senior Marketing Specialist</li>
-            <li>Outsourced Marketing Consultant</li>
-            <li><u>Design Lead</u></li>
+  <meta charset="UTF-8">
+  <title>Jason Lee</title>
+  <meta name="description" content="DESCRIPTION">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="PATH">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+    integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/asset/style.css">
+  <script src="https://kit.fontawesome.com/36eda0252e.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91741398-3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'UA-91741398-3');
+  </script>
+  <style>
+    h3 {
+      margin-top: 32px;
+    }
+
+    img {
+      box-shadow: 0px 0px 38px 2px rgba(71, 71, 71, 0.12);
+      margin-top: 16px;
+    }
+
+    .img-description {
+      margin-top: 8px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar-container border-bottom sticky-top">
+    <nav id="main-nav" class="container navbar navbar-expand-lg navbar-light px-0 bg-white">
+      <a class="navbar-brand" href="#"><img id="logo" src="/asset/img/logo.png"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
+        <ul id="top-navbar-items" class="navbar-nav ml-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link mr-2" href="#">Work<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about.html">About</a>
+          </li>
+          <li class="p-0 nav-item bg-primary rounded mx-2">
+            <a target="_blank" class="nav-link text-white" href="#">View Resume</a>
+          </li>
         </ul>
-        <h6>Timeline</h6>
-        <p>
-            September - December 2018 (12 weeks)
-        </p>
-        <h6>My Role</h6>
-        <p>
-            As the design lead in the project, my primary responsibilities were in visual design, web development and project management. 
-        </p>
-        <!--problems and goal block starts-->
-          <div class="row bg-dark p-4 text-light rounded">
-            <div class="col-6">
-              <h6>Problems & Challenges</h6>
-              <ul>
-                <li>Misalignment between content and the branding</li>
-                <li>Prominent user-flow/usability issues</li>
-                <li>Misaligned and outdated design elements</li>
-              </ul>
-            </div>
-            <div class="col-6">
-              <h6>Goal</h6>
-              <p>Design a website communicates the values of the company and its product with an user-centric approach</p>
-            </div>
-          </div>
-        <!--problems and goal block ends-->
-        <h3><b>Starting with the big problem:</b><br>Restructuring the Information Architecture</h3>
-        <h6>Solutions vs Features</h6>
-        <p>
-            Our team have concluded that the website is heavily weighted on showcasing the line of products*, 
-            but not enough on what 'solutions' can be offered to the specific needs of the potential buyers. 
-            As a software solutions provider, we were missing a big chunk.
-        </p>
-        <h6>Renaming the products/features</h6>
-        <p>
-          Because of the website simply displayed the product names, many of the users were not aware of what the product offers. 
-        </p>
-        <h6>Creating the content focused website</h6>
-        <p>With the company's new marketing strategy, the team needed to put the effort into making a content focused website. </p>
-        <h6>Reorganizing the menu items</h6>
-        <p>Some of the menu items, such as 'About us' and 'event' pages has been re-ordered based on its page view trends.</p>
-        <h6>Finalized items [screenshot of the diagram]</h6>
-        <img class="w-100 rounded" src="asset\img\screenshot-nav-01.png" alt="A Screenshot of previous website's navigation problem">
-        <p class="img-description text-dark"><i>Screenshot #1 - Previous website's navigation: The section is mostly focused on showing the list of products ('Features' as shown)</i></p>
-        <h3><b>Refinding the visuals:</b> Updating the look</h3>
-        <h6>Typefaces</h6>
-        <p>
-          Futura PT for heading, Nunito for Body type; The classic font Futura was chosen for the typeface to communicate the boldness
-        </p>
-        <h6>Colors</h6>
-        <p>	
-          Since the visual branding was not changing, and the management only preferred the incremental changes,  I have saturated the original blend of primary and secondary color, Blue and Orange for its visibility and liveliness. 
-        </p>
-        <h6>Design Guidelines</h6>
-        <p>	
-          The design system was created for the internal use for both Marketing and R&D team's use, and the system was being actively used for the new web app development which I was lucky to be a small part of in their deisgn initiative.
-        </p>
-        <h4>Implementation</h4>
-        <p>
-          The Implementation process consisted of multiple iterations which required weekly brainstorming sessions and feedback from all team members and stakeholders. <u>[Show diagrams of: Ideation -> design -> prototype -> implementation]</u> 
-        </p>
-        <p><strong>[Few pictures of wireframes, paper prototype, excel sheets, Adobe XD]</strong></p>
-        <h4>Takeaways for this project</h4>
-        <p>	
-          Since it was my first project experience as a 'design lead', It was not an easy tasks to manage the timeline of the projects since there were quite a lot of dependencies on the copywriting side of the project. It looks like I could possibly gain more insights from industry mentors on how they usually manage a such project. Due to the tight project timeline, and the nature of my role taking two duties as a designer and a developer, a proper high-fieldity prototyping was not in place everytime. And the timeline might have been overly ambitious. If I were to do lead the project, I would 
-        </p>
+      </div>
+    </nav>
+  </div>
+  <div class="container wrapper project-content py-5">
+    <h1>ClearDent Case Study</h1>
+    <h6>Project Summary</h6>
+    <p>
+      I worked with ClearDent, a dental practice management software company, to completely overhaul the company's
+      website as the design lead of the project.
+      The project was main focused on implementing new branding, usability improvement, and CMS migration.
+    </p>
+    <p>Our Main Goals:</p>
+    <ul> 
+      <li>Convey the brand message better</li>
+      <li>Improved site usability</li>
+      <li>Update the visuals</li>
+    </ul>
+    <h6>Team Members</h6>
+    <ul>
+      <li>Chief Revenue Officer</li>
+      <li>Senior Marketing Specialist</li>
+      <li>Outsourced Marketing Consultant</li>
+      <li><u>Design Lead (UI/UX Design & Web Development)</u></li>
+    </ul>
+    <h6>Timeline</h6>
+    <p>
+      September - December 2018 (12 weeks)
+    </p>
+    <!--problems and goal block starts-->
+    <div class="row bg-dark p-4 text-light rounded">
+      <div class="col-6">
+        <h6>Problems & Challenges</h6>
+        <ul>
+          <li>Misalignment between content and the branding</li>
+          <li>Prominent user-flow/usability issues</li>
+          <li>Misaligned and outdated design elements</li>
+        </ul>
+      </div>
+      <div class="col-6">
+        <h6>Goal</h6>
+        <p>Design a website communicates the values of the company and its product with an user-centric approach</p>
       </div>
     </div>
-    <!--footer-->
-    <div class="fluid-container border-top p-3">
-      <ul class="nav justify-content-center sticky-top">
-        <li class="nav-item">
-          <a class="nav-link active" href="#">Work</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="/about.html">About</a>
-        </li>
-      </ul>
-      <div class="row">
-        <div class="col-md-12 text-center pb-3">
-          <a href="mailto:jason.jaeseung@gmail.com"><u>jason.jaeseung@gmail.com</u></a>
+    <!--problems and goal block ends-->
+    <h3><b>Eearly Insights from users: </b>Need for Restructuring the Information Architecture</b></h3>
+    <img class="w-100 rounded" src="asset\img\screenshot-nav-01.png"
+      alt="A Screenshot of previous website's navigation problem">
+    <p class="img-description text-muted"><i>Previous website's navigation</i></p>
+    <h6>Solutions vs Features</h6>
+    <p>
+      The navigation was mainly focused on showing the line of products while not providing enough information on
+      what 'solutions' can be offered to the specific needs of the users. As a software 'solutions' provider, this key
+      information were missing to inform the buyers' decision.
+    </p>
+    <h6>Renaming the products/features</h6>
+    <p>
+      The naming convention for the products were confusing majority of the new website visitors. While the website was
+      displaying the actual product names, it was not conveying information on what product offers.
+    </p>
+    <h6>Creating the content focused website</h6>
+    <p>
+      With the company's new content-driven marketing strategy, the website needed to equip a robust resource library which 
+      can cater blogs and gated-contents such as eBooks and whitepapers.
+    </p>
+    <h6>Confusion for users looking for customer support</h6>
+    <p>Based on the pageview trends and its importance, entire menu strucutre has been redesigned. 
+    </p>
+    <h6>Reprioritizing the information hirerchy</h6>
+    <p>Based on the pageview trends and its importance, entire menu strucutre has been redesigned. 
+    </p>
+    <h3><b>New navigation structure:</b> Updating the look</h3>
+    <h4>Before</h4>
+    <img class="w-100 rounded" src="asset/img/navigation-before.png">
+    <h4>After</h4>
+    <img class="w-100 rounded" src="asset/img/navigation-after.png">
+    <h3><b>Refining the visuals:</b> Updating the look</h3>
+    <h6>Typefaces</h6>
+    <p>
+      Futura PT for heading, Nunito for Body type; The classic font Futura was chosen for the typeface to communicate
+      the boldness
+    </p>
+    <h6>Colors</h6>
+    <p>
+      Since the visual branding was not changing, and the management only preferred the incremental changes, I have
+      saturated the original blend of primary and secondary color, Blue and Orange for its visibility and liveliness.
+    </p>
+    <h6>Design Guidelines</h6>
+    <p>
+      The design system was created for the internal use for both Marketing and R&D team's use, and the system was being
+      actively used for the new web app development which I was lucky to be a small part of in their deisgn initiative.
+    </p>
+    <h4><b>Implementation</b></h4>
+    <p>
+      The Implementation process consisted of multiple iterations which required weekly brainstorming sessions and
+      feedback from all team members and stakeholders. <u>[Show diagrams of: Ideation -> design -> prototype ->
+        implementation]</u>
+    </p>
+    <p><strong>[Few pictures of wireframes, paper prototype, excel sheets, Adobe XD]</strong></p>
+    <h4><b>Takeaways for this project</b></h4>
+    <p>
+      Since it was my first project experience as a 'design lead', It was not an easy tasks to manage the timeline of
+      the projects since there were quite a lot of dependencies on the copywriting side of the project. It looks like I
+      could possibly gain more insights from industry mentors on how they usually manage a such project. Due to the
+      tight project timeline, and the nature of my role taking two duties as a designer and a developer, a proper
+      high-fieldity prototyping was not in place everytime. And the timeline might have been overly ambitious. If I were
+      to do lead the project, I would 
+    </p>
+  </div>
+  </div>
+  <!--footer-->
+  <div class="fluid-container border-top p-3">
+    <ul class="nav justify-content-center sticky-top">
+      <li class="nav-item">
+        <a class="nav-link active" href="#">Work</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/about.html">About</a>
+      </li>
+    </ul>
+    <div class="row">
+      <div class="col-md-12 text-center pb-3">
+        <a href="mailto:jason.jaeseung@gmail.com"><u>jason.jaeseung@gmail.com</u></a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col text-center text-muted">
+        <div class="social-icons">
+          <i class="fab fa-linkedin"></i><i class="fab fa-behance-square"></i><i class="fab fa-github-square"></i>
         </div>
       </div>
-      <div class="row">
-        <div class="col text-center text-muted">
-          <div class="social-icons">
-           <i class="fab fa-linkedin"></i><i class="fab fa-behance-square"></i><i class="fab fa-github-square"></i>
-          </div>
-       </div>
-      </div>
     </div>
-    <!-- Start of Async Drift Code -->
-<script>
-    "use strict";
-    
-    !function() {
-      var t = window.driftt = window.drift = window.driftt || [];
-      if (!t.init) {
-        if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
-        t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
-        t.factory = function(e) {
-          return function() {
-            var n = Array.prototype.slice.call(arguments);
-            return n.unshift(e), t.push(n), t;
-          };
-        }, t.methods.forEach(function(e) {
-          t[e] = t.factory(e);
-        }), t.load = function(t) {
-          var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
-          o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
-          var i = document.getElementsByTagName("script")[0];
-          i.parentNode.insertBefore(o, i);
-        };
-      }
-    }();
-    drift.SNIPPET_VERSION = '0.3.1';
-    drift.load('b7vbdshnw6y7');
-    </script>
-    <!-- End of Async Drift Code -->
- </body>
- </html>
+  </div>
+</body>
+</html>

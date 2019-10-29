@@ -1,4 +1,10 @@
 /* Float effect */
+h6 {
+  font-weight:900;
+}
+p, li {
+  color:#606060;
+}
 .hvr-float {
     display: inline-block;
     vertical-align: middle;
@@ -79,20 +85,14 @@
   #logo {
     width: 50px;
   }
-  #speechbubble {
-    max-width: 350px;
-  }
-  #speechbubble p {
-    padding: 8px;
-  }
 
   .profile-photo {
     width: 80%
   }
+  .project-content {
+    width: 768px;
+  }
 
   .project-content h4 {
     margin-top:24px;
-  }
-  .project-content p,ul {
-    font-size: 14px;
   }

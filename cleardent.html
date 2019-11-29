@@ -22,6 +22,10 @@
   <link rel="stylesheet" href="/asset/style.css">
   <script src="https://kit.fontawesome.com/36eda0252e.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+  </script>
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91741398-3"></script>
   <script>
@@ -30,45 +34,17 @@
     gtag('js', new Date());
     gtag('config', 'UA-91741398-3');
   </script>
-  <style>
-    h3 {
-      margin-top: 32px;
-    }
-
-    img {
-      box-shadow: 0px 0px 38px 2px rgba(71, 71, 71, 0.12);
-      margin-top: 16px;
-    }
-
-    .img-description {
-      margin-top: 8px;
-    }
-  </style>
+  <!--load header and footer-->
+  <script>
+    $(function () {
+      $("#header").load("header.html");
+      $("#footer").load("footer.html");
+    });
+  </script>
 </head>
 
 <body>
-  <div class="navbar-container border-bottom sticky-top">
-    <nav id="main-nav" class="container navbar navbar-expand-lg navbar-light px-0 bg-white">
-      <a class="navbar-brand" href="#"><img id="logo" src="/asset/img/logo.png"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
-        <ul id="top-navbar-items" class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link mr-2" href="#">Work<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about.html">About</a>
-          </li>
-          <li class="p-0 nav-item bg-primary rounded mx-2">
-            <a target="_blank" class="nav-link text-white" href="#">View Resume</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+  <div id="header"></div>
   <div class="container wrapper project-content py-5">
     <h1>ClearDent Case Study</h1>
     <h6>Project Summary</h6>
@@ -78,7 +54,7 @@
       The project was main focused on implementing new branding, usability improvement, and CMS migration.
     </p>
     <p>Our Main Goals:</p>
-    <ul> 
+    <ul>
       <li>Convey the brand message better</li>
       <li>Improved site usability</li>
       <li>Update the visuals</li>
@@ -127,14 +103,15 @@
     </p>
     <h6>Creating the content focused website</h6>
     <p>
-      With the company's new content-driven marketing strategy, the website needed to equip a robust resource library which 
+      With the company's new content-driven marketing strategy, the website needed to equip a robust resource library
+      which
       can cater blogs and gated-contents such as eBooks and whitepapers.
     </p>
     <h6>Confusion for users looking for customer support</h6>
-    <p>Based on the pageview trends and its importance, entire menu strucutre has been redesigned. 
+    <p>Based on the pageview trends and its importance, entire menu strucutre has been redesigned.
     </p>
     <h6>Reprioritizing the information hirerchy</h6>
-    <p>Based on the pageview trends and its importance, entire menu strucutre has been redesigned. 
+    <p>Based on the pageview trends and its importance, entire menu strucutre has been redesigned.
     </p>
     <h3><b>New navigation structure:</b> Updating the look</h3>
     <h4>Before</h4>
@@ -176,27 +153,7 @@
   </div>
   </div>
   <!--footer-->
-  <div class="fluid-container border-top p-3">
-    <ul class="nav justify-content-center sticky-top">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about.html">About</a>
-      </li>
-    </ul>
-    <div class="row">
-      <div class="col-md-12 text-center pb-3">
-        <a href="mailto:jason.jaeseung@gmail.com"><u>jason.jaeseung@gmail.com</u></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col text-center text-muted">
-        <div class="social-icons">
-          <i class="fab fa-linkedin"></i><i class="fab fa-behance-square"></i><i class="fab fa-github-square"></i>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div id="footer"></div>
 </body>
+
 </html>

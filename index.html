@@ -22,8 +22,9 @@
   <link rel="stylesheet" href="/asset/style.css">
   <script src="https://kit.fontawesome.com/36eda0252e.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
-  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous">
+  </script>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-91741398-3"></script>
   <script>
@@ -32,28 +33,17 @@
     gtag('js', new Date());
     gtag('config', 'UA-91741398-3');
   </script>
+  <!--load header and footer-->
+  <script> 
+      $(function(){
+        $("#header").load("header.html"); 
+        $("#footer").load("footer.html"); 
+      });
+  </script> 
 </head>
 
 <body>
-  <div id="hea" class="navbar-container border-bottom sticky-top">
-    <nav id="main-nav" class="container navbar navbar-expand-lg navbar-light px-0 bg-white">
-      <a class="navbar-brand" href="#"><img id="logo" src="/asset/img/logo.png"></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse text-center" id="navbarTogglerDemo02">
-        <ul id="top-navbar-items" class="navbar-nav ml-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
-            <a class="nav-link mr-2" href="#">Work<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about.html">About</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+<div id="header"></div>
   <div class="wrapper">
     <div class="fluid-jumbotron py-5">
       <div class="container">
@@ -81,36 +71,36 @@
     <div class="container">
       <div class="row">
         <div class="col py-5">
-          <h4><u>UI/UX Projects & Experiments</u></h4>
+          <h4><u>UI/UX Projects</u></h4>
         </div>
       </div>
       <div class="row">
         <div id="project-1" class="col-md-6 hvr-float">
           <a class="thumbnail-img"
-            href="https://www.behance.net/gallery/50063651/CURRENTC-APP-All-about-currency-exchange" target="_blank">
+            href="/cleardent.html" target="_blank">
             <div class="overlay">
-              <h3>CurrenC</h3>
-              <p>app project</p>
+              <h3>ClearDent</h3>
+              <p>Redesign Project</p>
             </div>
-            <img class="img-fluid" src="/asset/img/currentc.png">
+            <img class="img-fluid" src="/asset/img/cleardent-cover.jpg">
           </a>
           <div class="project-description">
-            <h3>CurentC</h3>
-            <p>App project</p>
+            <h3>ClearDent</h3>
+            <p>Redesign Project</p>
           </div>
         </div>
         <div id="project-2" class="col-md-6 hvr-float">
           <a class="thumbnail-img"
-            href="https://www.behance.net/gallery/50063651/CURRENTC-APP-All-about-currency-exchange" target="_blank">
+            href="#" target="_blank">
             <div class="overlay">
-              <h3>CurrenC</h3>
-              <p>app project</p>
+              <h3>Kees Taekwondo</h3>
+              <p>Redesign project (in Progress)</p>
             </div>
-            <img class="img-fluid" src="/asset/img/currentc.png">
+            <img class="img-fluid" src="/asset/img/kees-cover.jpg">
           </a>
           <div class="project-description">
-            <h3>CurentC</h3>
-            <p>App project</p>
+            <h3>Kees Taekwondo</h3>
+            <p>Redesign project</p>
           </div>
         </div>
       </div>
@@ -120,25 +110,11 @@
     <div class="container">
       <div class="row">
         <div class="col py-5">
-          <h4><u>Branding</u></h4>
+          <h4><u>Experiments</u></h4>
         </div>
       </div>
       <div class="row">
         <div id="project-1" class="col-md-6 hvr-float">
-          <a class="thumbnail-img"
-            href="https://www.behance.net/gallery/50063651/CURRENTC-APP-All-about-currency-exchange" target="_blank">
-            <div class="overlay">
-              <h3>CurrenC</h3>
-              <p>app project</p>
-            </div>
-            <img class="img-fluid" src="/asset/img/currentc.png">
-          </a>
-          <div class="project-description">
-            <h3>CurentC</h3>
-            <p>App project</p>
-          </div>
-        </div>
-        <div id="project-2" class="col-md-6 hvr-float">
           <a class="thumbnail-img"
             href="https://www.behance.net/gallery/50063651/CURRENTC-APP-All-about-currency-exchange" target="_blank">
             <div class="overlay">
@@ -157,28 +133,7 @@
   </div>
   <!--selected work ends-->
   <!--footer-->
-  <div class="fluid-container border-top p-3">
-    <ul class="nav justify-content-center sticky-top">
-      <li class="nav-item">
-        <a class="nav-link active" href="#">Work</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="/about.html">About</a>
-      </li>
-    </ul>
-    <div class="row">
-      <div class="col-md-12 text-center pb-3">
-        <a href="mailto:jason.jaeseung@gmail.com"><u>jason.jaeseung@gmail.com</u></a>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col text-center text-muted">
-        <div class="social-icons">
-          <i class="fab fa-linkedin"></i><i class="fab fa-behance-square"></i><i class="fab fa-github-square"></i>
-        </div>
-      </div>
-    </div>
-  </div>
+  <div id="footer"></div>
   <!-- Start of Async Drift Code -->
   <script>
     "use strict";
